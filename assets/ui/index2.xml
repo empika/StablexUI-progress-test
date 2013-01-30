@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Widget left="0" top="0" w="800" h="600" >
+  <HBox left="0" top="0" widthPt="100">
+    
+    <!-- Health -->
+    <VBox left="0" top="0" widthPt="50" >
+      <HBox left="0" top="10" widthPt="100" align="'top,left'">
+        <Text align="'top,left'" w="100" text="'1:'" />
+        <Text align="'top,left'" w="75" text="'50'" />
+        <Text align="'top,center'" w="30" text="'/'" />
+        <Text align="'top,left'" w="100" text="'100'" />
+      </HBox>
+  
+      <VBox left="0" paddingTop="10" paddingBottom="10" widthPt="100" align="'top,left'">
+        <Progress id="'nice'" left="0" widthPt="50" h="21" skinName="'progressBox'" bar-skinName="'progressBar'"
+          value="50"
+          max="100"
+        />
+      </VBox>
+    </VBox> <!-- end health -->
+    
+
+    <VBox left="0" top="0" widthPt="50" >
+      <HBox left="0" widthPt="100" align="'top,left'" paddingLeft="100" >
+        <Text align="'top,left'" w="100" text="'2:'" />
+        <Text align="'top,left'" w="75" text="'6'" />
+        <Text align="'top,center'" w="30" text="'/'" />
+        <Text align="'top,left'" w="100" text="'100'" />
+      </HBox>
+
+      <VBox id="'progressbox'" left="0" widthPt="100" paddingTop="10" paddingBottom="10" align="'top,left'" >
+        <Progress id="'naughty'" left="2" widthPt="60" h="21" skinName="'progressBox'" bar-skinName="'progressBar'"
+          value="17"
+          max="67"
+        />
+      </VBox>
+    </VBox> <!-- end magic -->
+  </HBox>
+</Widget>

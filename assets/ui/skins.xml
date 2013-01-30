@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Skins>
+    <progressBox:Slice9
+        src   = "'assets/img/9slice_progress_box.png'"
+        slice = "[6, 25, 6, 25]"
+    />
+    <progressBar:Slice9
+        src   = "'assets/img/9slice_progress_bar.png'"
+        slice = "[6, 25, 6, 25]"
+    />
+</Skins>
