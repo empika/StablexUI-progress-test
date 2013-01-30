@@ -29,9 +29,9 @@ class Main extends nme.display.Sprite{
         UIBuilder.regSkins('assets/ui/skins.xml');
 
         //Create our UI
-/*        Lib.current.addChild( UIBuilder.buildFn('assets/ui/index.xml')() );*/
-        Lib.current.addChild( UIBuilder.buildFn('assets/ui/index2.xml')() );
-        //Lib.current.addChild( UIBuilder.buildFn('assets/ui/index3.xml')() );
+        Lib.current.addChild( UIBuilder.buildFn('assets/ui/index.xml')() );
+/*        Lib.current.addChild( UIBuilder.buildFn('assets/ui/index2.xml')() );*/
+/*        Lib.current.addChild( UIBuilder.buildFn('assets/ui/index3.xml')() );*/
     }//function main()
 
 
